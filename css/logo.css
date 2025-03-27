@@ -1,0 +1,42 @@
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo::before {
+    content: 'H';
+    background: #333;
+    color: white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.logo span {
+    color: #666;
+    font-weight: 400;
+}
+
+/* Footer logo styles */
+.footer .logo {
+    color: #fff;
+}
+
+.footer .logo::before {
+    background: #fff;
+    color: #333;
+}
+
+.footer .logo span {
+    color: #ccc;
+} 
